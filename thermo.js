@@ -15,4 +15,7 @@ const thermoIncreaseYo= () => {
     
 }
 thermoIncreaseYo();
-setInterval(thermoIncreaseYo,4000);
+let stop=setInterval(thermoIncreaseYo,4000);
+let stopThermo=() => {
+    clearInterval(stop);
+}
