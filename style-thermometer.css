@@ -17,7 +17,20 @@ html{
 }
 #thermo{
     padding-left: 9rem;
-   
+}
+#btn:hover{
+    color: rgb(183, 0, 255);
+    background-color: rgb(187, 250, 229);
+}
+button{
+    align-items: center;
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    padding: .6rem;
+    margin-left: 25rem;
+    border-radius: .8rem;
+    font-weight: bolder ;
+    cursor: pointer;
 }
 @media (max-width:998px){
     html{
